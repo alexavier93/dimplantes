@@ -1,0 +1,135 @@
+// Responsive
+
+@media (max-width: 1300px) {
+	#header {
+		.header-nav {
+			.logo {
+				a {
+					display: block;
+					padding: 0 30px;
+				}
+			}
+
+			.menu {
+				padding: 0 20px;
+
+				.nav {
+					ul {
+						li > a {
+							padding: 0 8px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+	#header {
+		.header-nav {
+			.logo {
+				margin: 20px 0px;
+			}
+
+			.menu {
+				display: none;
+			}
+		}
+	}
+
+	#home {
+
+		.wpp_content {
+			.wpp_contact {
+				margin: 0px;
+			}
+		}
+
+		.info-home {
+			padding: 40px 0;
+
+			h2 {
+				margin-top: 20px;
+			}
+		}
+	
+		.cases-home {
+			.wrapper-cases-title {
+				margin-top: 20px;
+				margin-bottom: 60px;
+			}
+		}
+		
+		.sobre-home {
+
+			h2 {
+				margin-top: 40px;
+			}
+
+		}
+		
+		
+
+	}
+}
+
+@media (max-width: 800px) {
+}
+
+@media (max-width: 767px) {
+	
+}
+@media (max-width: 650px) {
+	#home {
+		.banner-carousel {
+			.slide-item {
+				height: 400px;
+			}
+
+			.content-box {
+				h2 {
+					font-size: 35px;
+					width: 65%;
+				}
+
+				.descricao {
+					width: 100%;
+				}
+			}
+		}
+
+
+		.map-home {
+			.map {
+				padding: 20px;
+			}
+		}
+		
+		
+	}
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 450px) {
+	#header {
+		.header-nav {
+			.logo {
+				.logo-fix {
+					padding: 0px 20px;
+				}
+			}
+		}
+	}
+
+	#home {
+	}
+}
+
+@media (max-width: 360px) {
+}
