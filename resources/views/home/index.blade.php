@@ -58,10 +58,9 @@
 
                         <div class="wpp_contact">
 
-                            <h2>Planeje sua<br>visita agora</h2>
+                            <h2>AGENDE UMA AVALIAÇÃO GRATUITA</h2>
                             <p class="my-4">Comece a mudança</p>
-                            <a class="btn-agenda" href=""><i class="fab fa-whatsapp ml-2"></i> Agende Agora</a>
-
+                            <a class="btn-agenda" href="https://wa.me/5511970115370" target="_blank"><i class="fab fa-whatsapp ml-2"></i> Agende Agora</a>
                         </div>
 
                     </div>
@@ -73,7 +72,7 @@
 
         </section>
 
-        <section class="info-home">
+        <section id="sobre" class="info-home">
 
             <div class="container">
 
@@ -86,8 +85,7 @@
                             <div class="left_img">
                                 <figure>
                                     <div>
-                                        <img src="https://demo.curlythemes.com/dentist-wp/wp-content/uploads/sites/22/2017/06/Receptionroominclinic.jpg"
-                                            alt="">
+                                        <img src="{{ asset('assets/images/casal.jpg') }}" alt="">
                                     </div>
                                 </figure>
                             </div>
@@ -95,8 +93,7 @@
                             <div class="right_img">
                                 <figure>
                                     <div>
-                                        <img src="https://demo.curlythemes.com/dentist-wp/wp-content/uploads/sites/22/2017/06/Portraitofyounghandsomedentistinclinic1.jpg"
-                                            alt="">
+                                        <img src="{{ asset('assets/images/paciente.jpg') }}" alt="">
                                     </div>
                                 </figure>
                             </div>
@@ -106,19 +103,13 @@
 
                     <div class="col-md-12 col-lg-5 offset-lg-1">
 
-                        <h2>Um bom dia<br> e um <b>sorriso<br> bonito</b></h2>
+                        <h2>Um novo sorriso em pouco tempo com <b>Implantes Dentários</b></h2>
 
-                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem numquam, esse odit
-                            aspernatur sapiente earum magni officiis voluptate quia beatae eveniet quaerat ducimus dolores
-                            obcaecati necessitatibus inventore vel ea laudantium!</h6>
+                        <p>Transforme a sua vida e sorria sem medo de ser feliz! Oferecemos serviços odontológicos de qualidade, equipamentos de última geração e uma equipe de especialistas totalmente capacitada e pronta para te atender como você merece.</p>         
 
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore perferendis, quo amet, assumenda
-                            nemo facere ad debitis eum nostrum neque ab molestias id officia accusamus non alias voluptatem
-                            excepturi officiis!</p>
+                        <p>A D'implantes é uma clínica com mais de 19 anos de atuação especializada em implantodontia, odontologia estética, cirurgia e prótese dentária utilizando os métodos mais inovadores do mercado.</p>
 
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore perferendis, quo amet, assumenda
-                            nemo facere ad debitis eum nostrum neque ab molestias id officia accusamus non alias voluptatem
-                            excepturi officiis!</p>
+                        <p>Nós planejamos um tratamento especial para cada paciente, com resultados rápidos, eficientes e com total segurança. Além de um atendimento personalizado realizado com o especialista Dr. Humberto, profissional fixo em nossa sede própria.</p>
 
                     </div>
 
@@ -126,87 +117,6 @@
 
             </div>
 
-        </section>
-
-        <section class="cases-home">
-
-            <div class="container">
-
-                <div class="row">
-
-          
-                    <div class="col-md-12 col-lg-4">
-
-                        <div class="wrapper-cases-title">
-
-                            <h2>Nossos casos e<br>
-                                histórias de<br>
-                                pacientes</h2>
-
-                            <a href="" class="btn-todos">Ver todos os casos</a>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-12 col-lg-8">
-
-                        <div class="wrapper-cases">
-
-                            <div class="row">
-
-                                <div class="col-sm-4">
-                                    <div class="person">
-                                        <img src="https://demo.curlythemes.com/dentist-wp/wp-content/uploads/sites/22/2017/06/Untitled-4-2.jpg"
-                                            alt="">
-                                        <div class="person__info">
-                                            <div class="person__title"><small>CLINICAL CASE</small><br>Samantha J.</div>
-                                            <div class="person__content">Tooth Whitening, Root Canal Treatments, Implants<p>
-                                                </p>
-                                                <p style="text-align: right;"><a class="btn btn-link btn-sm" href="#">View
-                                                        Case</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 d-none d-md-block d-lg-block d-xl-block">
-                                    <div class="person">
-                                        <img src="https://demo.curlythemes.com/dentist-wp/wp-content/uploads/sites/22/2017/06/Untitled-5-2.jpg"
-                                            alt="">
-                                        <div class="person__info">
-                                            <div class="person__title"><small>CLINICAL CASE</small><br>Samantha J.</div>
-                                            <div class="person__content">Tooth Whitening, Root Canal Treatments, Implants<p>
-                                                </p>
-                                                <p style="text-align: right;"><a class="btn btn-link btn-sm" href="#">View
-                                                        Case</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 d-none d-md-block d-lg-block d-xl-block">
-                                    <div class="person">
-                                        <img src="https://demo.curlythemes.com/dentist-wp/wp-content/uploads/sites/22/2017/06/Untitled-6-2.jpg"
-                                            alt="">
-                                        <div class="person__info">
-                                            <div class="person__title"><small>CLINICAL CASE</small><br>Samantha J.</div>
-                                            <div class="person__content">Tooth Whitening, Root Canal Treatments, Implants<p>
-                                                </p>
-                                                <p style="text-align: right;"><a class="btn btn-link btn-sm" href="#">View
-                                                        Case</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
         </section>
 
         <section class="sobre-home">
@@ -233,19 +143,13 @@
 
                     <div class="col-md-12 col-lg-5 offset-lg-1">
 
-                        <h2>Sobre Nossa<br>Clínica<br>Dentista</h2>
+                        <h2>Nossa Clínica Odontológica SPA</h2>
 
-                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem numquam, esse odit
-                            aspernatur sapiente earum magni officiis voluptate quia beatae eveniet quaerat ducimus dolores
-                            obcaecati necessitatibus inventore vel ea laudantium!</h6>
+                        <p>A D’Implantes possui uma área exclusiva para pacientes que preferem realizar a carga imediata com conforto, segurança e serviços de cozinha gourmet. O ambiente é harmonioso e aconchegante, podendo ser utilizado principalmente para pacientes que residem em outras Cidades ou Estados</p>
 
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore perferendis, quo amet, assumenda
-                            nemo facere ad debitis eum nostrum neque ab molestias id officia accusamus non alias voluptatem
-                            excepturi officiis!</p>
+                        <p>Nossa proposta é realizar todas ou a maioria das etapas do tratamento em apenas 1 dia. Para este tratamento é importante que o paciente agende uma consulta para que seja planejado todas as etapas e somente após está avaliação, inicia o atendimento SPA.</p>
 
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore perferendis, quo amet, assumenda
-                            nemo facere ad debitis eum nostrum neque ab molestias id officia accusamus non alias voluptatem
-                            excepturi officiis!</p>
+                        <p>Neste atendimento proporcionamos ao paciente privacidade total e exclusividade. Esta opção é interessante principalmente para as pessoas que precisam de urgência nos resultados odontológicos e procuram um dia de descanso enquanto tratam de sua saúde bucal.</p>
 
                     </div>
 
@@ -263,12 +167,11 @@
 
                     <div class="col-md-12 col-lg-5">
 
-                        <h2>Descobrir <b>D’Implantes</b></h2>
+                        <h2>Descubra nossas<br><b>especialidades</b></h2>
 
-                        <p>Nossos clientes são nossa prioridade, oferecemos serviços odontológicos de qualidade com uma
-                            equipe de especialistas. Mais detalhe sobre nossos serviços</p>
+                        <p>Trabalhamos com as tecnologias mais avançadas do mercado, desde a substituição de próteses móveis a implantação unitária e de ponte fixa, extração de dentes do siso, ortodontia, cirurgias até estética bucal.</p>
 
-                        <a href="" class="btn-mais">Agende uma consulta</a>
+                        <a href="{{ route('tratamentos.index') }}" class="btn-mais">CONHEÇA OS TRATAMENTOS</a>
 
                     </div>
 
@@ -281,43 +184,35 @@
                                 <div class="row">
 
                                     <div class="col-sm-4 col-md-3 servico-item text-center">
-                                        <img class="" src="{{ asset('assets/images/icones/icon-implante.png') }}" alt="">
-                                        <h4>Implantes</h4>
+                                        <img class="" src="{{ asset('assets/images/icones/implantes.png') }}" alt="">
                                     </div>
 
                                     <div class="col-sm-4 col-md-3 servico-item text-center">
-                                        <img class="" src="{{ asset('assets/images/icones/icon-implante.png') }}" alt="">
-                                        <h4>Implantes</h4>
+                                        <img class="" src="{{ asset('assets/images/icones/canal.png') }}" alt="">
                                     </div>
 
                                     <div class="col-sm-4 col-md-3 servico-item text-center">
-                                        <img class="" src="{{ asset('assets/images/icones/icon-implante.png') }}" alt="">
-                                        <h4>Implantes</h4>
+                                        <img class="" src="{{ asset('assets/images/icones/restauracao.png') }}" alt="">
                                     </div>
 
                                     <div class="col-sm-4 col-md-3 servico-item text-center">
-                                        <img class="" src="{{ asset('assets/images/icones/icon-implante.png') }}" alt="">
-                                        <h4>Implantes</h4>
+                                        <img class="" src="{{ asset('assets/images/icones/limpeza.png') }}" alt="">
                                     </div>
 
                                     <div class="col-sm-4 col-md-3 servico-item text-center">
-                                        <img class="" src="{{ asset('assets/images/icones/icon-implante.png') }}" alt="">
-                                        <h4>Implantes</h4>
+                                        <img class="" src="{{ asset('assets/images/icones/clareamento.png') }}" alt="">
                                     </div>
 
                                     <div class="col-sm-4 col-md-3 servico-item text-center">
-                                        <img class="" src="{{ asset('assets/images/icones/icon-implante.png') }}" alt="">
-                                        <h4>Implantes</h4>
+                                        <img class="" src="{{ asset('assets/images/icones/facetas-porcelana.png') }}" alt="">
                                     </div>
 
                                     <div class="col-sm-4 col-md-3 servico-item text-center">
-                                        <img class="" src="{{ asset('assets/images/icones/icon-implante.png') }}" alt="">
-                                        <h4>Implantes</h4>
+                                        <img class="" src="{{ asset('assets/images/icones/raspagem.png') }}" alt="">
                                     </div>
 
                                     <div class="col-sm-4 col-md-3 servico-item text-center">
-                                        <img class="" src="{{ asset('assets/images/icones/icon-implante.png') }}" alt="">
-                                        <h4>Implantes</h4>
+                                        <img class="" src="{{ asset('assets/images/icones/aparelhos.png') }}" alt="">
                                     </div>
 
                                 </div>
@@ -353,25 +248,7 @@
 
         </section>
 
-        <section class="map-home">
-
-            <div class="container">
-
-                <div class="text-center">
-                    <h2>Como Chegar</h2>
-                </div>
-
-                <div class="map text-center">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5927.503944842329!2d-46.52179989022653!3d-23.67311667970886!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe70917dcc1ab64c0!2sD&#39;Implantes!5e0!3m2!1spt-BR!2sbr!4v1612527057567!5m2!1spt-BR!2sbr"
-                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
-                    <h5 class="mt-5">R. Carijós, 313 - Vila Alzira, Santo André - SP, 09180-000</h5>
-                </div>
-
-            </div>
-
-        </section>
+        
 
     </div>
     <!-- End Home -->

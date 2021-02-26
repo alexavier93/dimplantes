@@ -31,7 +31,7 @@
             ['color', ['color']],
             ['para', ['ul', 'ol', 'paragraph']],
             ['table'],
-            ['insert', ['link']],
+            ['insert', ['link', 'picture']],
             ['view', ['fullscreen', 'codeview', 'help']]
         ]
     });

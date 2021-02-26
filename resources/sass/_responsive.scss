@@ -25,10 +25,22 @@
 	}
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1200px) { 
 }
 
+
 @media (max-width: 992px) {
+
+	.page-title-content {
+		padding: 80px 0;
+		height: 250px;
+		margin-top: 130px;
+
+		h1 {
+			font-size: 45px;
+		}
+	}
+
 	#header {
 		.header-nav {
 			.logo {
@@ -132,4 +144,11 @@
 }
 
 @media (max-width: 360px) {
+}
+
+
+@media all and (min-width: 992px) {
+	#header .header-nav .menu .nav .nav-item .dropdown-menu{ display: none; }
+	#header .header-nav .menu .nav .nav-item:hover .dropdown-menu{ display: block; }
+	#header .header-nav .menu .nav .nav-item .dropdown-menu{ margin-top:-15px; }
 }

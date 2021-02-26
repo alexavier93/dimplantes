@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Models\Tratamento;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -23,6 +24,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+
+        view()->composer('*', function($view){
+            $tratamentos = Tratamento::all();
+            $view->with('submenuTratamentos', $tratamentos);
+        });
+
     }
 }

@@ -34,14 +34,11 @@
 
                     <div class="logo">
                         @if (route('home'))
-                            <a href="{{ route('home') }}" class="logo-main"><img
-                                    src="{{ asset('assets/images/logo-dimplantes.png') }}" alt=""></a>
+                            <a href="{{ route('home') }}" class="logo-main"><img src="{{ asset('assets/images/logo-dimplantes.png') }}" alt=""></a>
                         @else
-                            <a href="{{ route('home') }}" class="logo-main"><img class="img-fluid"
-                                    src="{{ asset('assets/images/logo-dimplantes.png') }}" alt=""></a>
+                            <a href="{{ route('home') }}" class="logo-main"><img class="img-fluid" src="{{ asset('assets/images/logo-dimplantes.png') }}" alt=""></a>
                         @endif
-                        <a href="{{ route('home') }}" class="logo-fix"><img class="img-fluid"
-                                src="{{ asset('assets/images/logo-dimplantes.png') }}" alt=""></a>
+                        <a href="{{ route('home') }}" class="logo-fix"><img class="img-fluid" src="{{ asset('assets/images/logo-dimplantes.png') }}" alt=""></a>
                     </div>
 
                     <div class="menu">
@@ -52,22 +49,19 @@
                                     <a class="nav-link" href="{{ route('home') }}">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="">Pacientes</a>
+                                    <a class="nav-link" href="#sobre">Quem Somos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="">Contate-nos</a>
+                                    <a class="nav-link" href="{{ route('tratamentos.index') }}">Tratamentos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="">Blog</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="">Compromissos</a>
+                                    <a class="nav-link" href="{{ route('contato.index') }}">Contato</a>
                                 </li>
 
                                 <li class="nav-item midias">
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/dimplantesodontologia" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/dimplantes" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://wa.me/5511970115370" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                 </li>
 
                             </ul>
@@ -85,8 +79,6 @@
 
             </div>
 
-
-
         </div>
 
         <!--Side Nav-->
@@ -99,16 +91,13 @@
                             <a class="nav-link" href="{{ route('home') }}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Pacientes</a>
+                            <a class="nav-link" href="">Quem Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Contato</a>
+                            <a class="nav-link" href="{{ route('tratamentos.index') }}">Tratamentos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Compromissos</a>
+                            <a class="nav-link" href="{{ route('contato.index') }}">Contato</a>
                         </li>
                     </ul>
                 </nav>
@@ -129,19 +118,32 @@
     <!-- Footer -->
     <footer id="footer">
 
+        <div class="map">
+
+            <div class="container">
+
+                <div class="text-center">
+                    <h5><i class="fas fa-map-marker-alt mr-3"></i> R. Carijós, 313 - Vila Alzira, Santo André - SP, 09180-000</h5>
+                </div>
+
+            </div>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.0738635563553!2d-46.52166608502011!3d-23.673316384627373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4276fb7158b3%3A0x128d172ae81d7229!2sR.%20Carij%C3%B3s%2C%20313%20-%20Vila%20Alzira%2C%20Santo%20Andr%C3%A9%20-%20SP%2C%2009180-000!5e0!3m2!1spt-BR!2sbr!4v1613770540409!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+
         <div class="info-footer">
 
             <div class="container">
 
                 <div class="wrapper">
-                    <h5>Você pode <b>ligar para nossa recepção em 11 9999-999</b> Seg-Sex 9h - 20h, e-mail para
-                        contato@dimplantes.com.br ou preecher o <a href="">Formulário de Contato</a></h5>
-
+                    <h5>
+                        AGENDE SUA AVALIAÇÃO GRATUITA <a href="">Formulário de Contato</a><br>
+                        Tel: (11) 4971-3720 | (11) 2759-5488 | Whatsapp (11) 97011-5370
+                    </h5>
                 </div>
 
-
             </div>
-
 
         </div>
 
@@ -152,7 +154,7 @@
                 <div class="row">
 
                     <div class="col-md-6 offset-md-3 item-link">
-                        <img class="img-fluid mb-2" src="{{ asset('assets/images/logo-dimplantes.png') }}" alt="">
+                        <img class="img-fluid w-75 mb-2" src="{{ asset('assets/images/logo-dimplantes.png') }}" alt="">
                     </div>
 
                 </div>
@@ -166,30 +168,31 @@
                 <div class="row">
 
                     <div class="col-md-6 offset-md-3">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eveniet nobis dolores amet
-                            sit dolore doloribus recusandae.</p>
+                        <p>Nosso horário de atendimento é de Segunda a Sexta das 9h às 20h</p>
                     </div>
 
                     <div class="col-md-6 offset-md-3">
 
                         <ul class="midias list-inline">
                             <li>
-                                <a href="" target="_blank">
+                                <a href="https://www.facebook.com/dimplantesodontologia" target="_blank">
                                     <i class="fab fa-facebook-square"></i>
                                 </a>
                             </li>
+                            
                             <li>
-                                <a href="" target="_blank">
-                                    <i class="fab fa-twitter"></i>
+                                <a href="https://www.instagram.com/dimplantes" target="_blank">
+                                    <i class="fab fa-instagram"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="" target="_blank">
-                                    <i class="fab fa-instagram"></i>
+                                <a href="https://wa.me/5511970115370" target="_blank">
+                                    <i class="fab fa-whatsapp"></i>
                                 </a>
                             </li>
                         </ul>
                     </div>
+                    
 
                 </div>
 
@@ -201,7 +204,6 @@
 
     </footer>
     <!-- End Footer -->
-
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>

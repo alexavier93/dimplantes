@@ -14,7 +14,7 @@ class AuthController extends Controller
     public function login()
     {
         if(Auth::check()){
-            return redirect()->route('admin.dashboard.index');
+            return redirect()->route('admin.tratamentos.index');
         }
         
         return view('admin.login.login');
@@ -27,13 +27,13 @@ class AuthController extends Controller
 
         if (Auth::viaRemember()) {
 
-            return redirect()->intended('admin/dashboard');
+            return redirect()->intended('admin/tratamentos');
 
         } else {
 
             if (Auth::attempt(['email' => $credentials['email'], 'password' => $credentials['password'], 'status' => 1], $request->has('remember'))) {
 
-                return redirect()->intended('admin/dashboard');
+                return redirect()->intended('admin/tratamentos');
 
             }else{
 
@@ -50,7 +50,7 @@ class AuthController extends Controller
     {
 
         if(Auth::check()){
-            return redirect()->route('admin.dashboard.index');
+            return redirect()->route('admin.tratamentos.index');
         }
 
         return view('admin.login.password');

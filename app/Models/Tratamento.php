@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class ServiceFile extends Model
+class Tratamento extends Model
 {
     use HasFactory;
 
@@ -15,14 +15,7 @@ class ServiceFile extends Model
      * @var array
      */
     protected $fillable = [
-        'title', 'file' 
+        'name', 'intro', 'description', 'image', 'slug', 'view_home','category_id'
     ];
-
-    public $timestamps = false;
-
-    public function services()
-    {
-        return $this->belongsTo(Service::class);
-    }
 
 }
